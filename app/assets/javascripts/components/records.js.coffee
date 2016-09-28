@@ -6,7 +6,7 @@
   addRecord: (record) ->
     records = @state.records.slice()
     records.push record
-    @setState record: records
+    @setState records: records
   render: ->
     React.DOM.div
       className: 'records'
